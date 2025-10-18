@@ -14,25 +14,14 @@ This repository showcases all tasks completed during my **ShadowFox Data Science
 ##  Tasks
 
 ###  Task 1 — Visualization Library Documentation
-**Objective:** Compare Matplotlib & Seaborn using IPL fielding data.  
-**Process:**  
-- Cleaned and encoded IPL fielding dataset.  
-- Created bar, pie, and heatmap visualizations.  
-- Compared performance and visual appeal of both libraries.  
-
-**Insights:**  
-- Clean Pick & Catch dominate the dataset.  
-- Dropped catches are rare → strong fielding performance.  
-- Each fielding action is independent (low correlation).  
-
-**Deliverables:**  
-`IPL_Fielding_Visualization.ipynb` | `IPL_Fielding_Visualization.pdf`
+**Goal:** Compare Matplotlib & Seaborn using IPL fielding data.  
+**Outcome:** Cleaned and visualized data through bar, pie, and heatmap plots — showing strong fielding consistency and minimal dropped catches.  
 
 ---
 
-### ⏳ Task 2 — Sentiment Analysis *(Upcoming)*  
-### ⏳ Task 3 — Exploratory Data Analysis *(Upcoming)*  
-### ⏳ Task 4 — Model Deployment *(Upcoming)*  
+###  Task 2 — Sentiment Analysis on IPL Dataset
+**Goal:** Analyze text-based records (Catch, Fumble, Dropped Catch) for sentiment using NLTK’s VADER.  
+**Outcome:** Identified positive tone for successful actions and negative tone for dropped catches, demonstrating practical NLP analysis.  
 
 ---
 
