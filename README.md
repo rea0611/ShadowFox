@@ -1,34 +1,59 @@
-# ShadowFox
-Data Science Internship @ ShadowFox | Visualization, EDA, and Analytics Tasks using Python (Matplotlib, Seaborn, Pandas)
-#  ShadowFox Data Science Internship
-**Intern:** Riya Bhise | **Domain:** AI & Data Science  
-**Tools:** Python, Pandas, Matplotlib, Seaborn  
+# 🧩 Data Science Internship Tasks — ShadowFox
+
+### Overview
+This repository contains the deliverables completed during my Data Science Internship at **ShadowFox**, demonstrating applied skills in Python, data visualization, and sentiment analysis.
 
 ---
 
-##  Overview
-This repository showcases all tasks completed during my **ShadowFox Data Science Internship**, focusing on data cleaning, visualization, and analytics using Python.
+## 📊 **Task 1 — Visualization Library Documentation (Matplotlib & Seaborn)**
+
+### **Objective**
+Develop a comprehensive guide comparing **Matplotlib** and **Seaborn**, highlighting graph variety, syntax, customization, and usability.
+
+### **Contents**
+- 📘 Library Overview — Core features & use cases  
+- 📈 Graph Types — Line, Bar, Scatter, Histogram, Pie, Heatmap (complete code snippets included)  
+- ⚖️ Comparison Table — Ease of use, aesthetics, interactivity, and performance  
+- 🔗 Resources — Official docs for deeper learning  
+
+### **Tools Used**
+`Python` | `Matplotlib` | `Seaborn` | `Jupyter Notebook`
+
+### **Output**
+📄 `Visualization_Library_Documentation_Matplotlib_Seaborn.pdf` – Beginner-friendly reference for data visualization techniques.
 
 ---
 
-##  Tasks
+## 🧠 **Task 2 — Sentiment Analysis of X (Twitter) Data**
 
-###  Task 1 — Visualization Library Documentation
-**Goal:** Compare Matplotlib & Seaborn using IPL fielding data.  
-**Outcome:** Cleaned and visualized data through bar, pie, and heatmap plots — showing strong fielding consistency and minimal dropped catches.  
+### **Objective**
+Analyze tweets from X (Twitter) to classify sentiments as **Positive**, **Negative**, or **Neutral** using NLP-based sentiment scoring.
+
+### **Tech Stack**
+`Python` | `Pandas` | `NLTK` | `VADER` | `Matplotlib` | `Seaborn` | `WordCloud`
+
+### **Workflow**
+1. Load dataset (`x_data.csv`)  
+2. Preprocess and clean tweet text  
+3. Apply **VADER** Sentiment Intensity Analyzer  
+4. Visualize sentiment distributions, trends, and word frequencies
+
+### **Outputs**
+- `annotated_tweets.csv` – Tweets with sentiment labels  
+- `sentiment_summary.csv` – Count of Positive, Negative, Neutral tweets  
+- Visualizations – WordClouds, bar plots, and time-series trends
+
+### **Key Insight**
+Discovered public mood trends and emotional tone across X posts, providing a clear, data-driven view of social sentiment over time.
 
 ---
 
-###  Task 2 — Sentiment Analysis on IPL Dataset
-**Goal:** Analyze text-based records (Catch, Fumble, Dropped Catch) for sentiment using NLTK’s VADER.  
-**Outcome:** Identified positive tone for successful actions and negative tone for dropped catches, demonstrating practical NLP analysis.  
-
----
-
-##  Key Takeaways
-- Data visualization using Matplotlib & Seaborn  
-- Data preprocessing & encoding  
-- Insight generation through analytical storytelling  
+## 🚀 **Skills Demonstrated**
+- Data Visualization & Exploration  
+- Natural Language Processing (NLP)  
+- Data Cleaning & Preprocessing  
+- Sentiment Analysis  
+- Technical Documentation & Reporting
 
 ---
 
